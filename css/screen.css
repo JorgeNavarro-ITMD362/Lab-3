@@ -205,4 +205,55 @@ label {
 /* ===== LAYOUT STYLES ====== */
 
 
+body {
+  text-align: center;
+  background: rgb(218, 218, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+form {
+  background: rgb(138, 138, 138);
+  padding: 50px;
+  border-radius: 8px;
+  width: 70%;
+}
+
+
+h1, .lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 15px;
+}
+
+p, .lato-light {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-bottom: 15px;
+}
+
+label, .lato-bold {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 15px;
+
+}
+
+#input-email {
+  background: rgb(206, 206, 206);
+  border: none;
+  margin-bottom: 20px;
+}
+
+#input-age-verification {
+  background: rgb(206, 206, 206);
+  margin-bottom: 10px;
+}
+
+
 /* ===== STATE STYLES ======= */
