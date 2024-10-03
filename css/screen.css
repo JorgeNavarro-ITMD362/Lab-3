@@ -217,7 +217,6 @@ body {
 form {
   background: rgb(138, 138, 138);
   padding: 50px;
-  border-radius: 8px;
   width: 70%;
 }
 
@@ -246,7 +245,6 @@ label, .lato-bold {
 
 #input-email {
   background: rgb(206, 206, 206);
-  border: none;
   margin-bottom: 20px;
 }
 
@@ -257,3 +255,11 @@ label, .lato-bold {
 
 
 /* ===== STATE STYLES ======= */
+
+@media screen and (min-width: 620px) {
+  form {
+    padding: 100px;
+    border-radius: 50px;
+
+  }
+}
