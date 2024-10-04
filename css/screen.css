@@ -211,6 +211,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 1.182em; /* 26px / ~ 120% */
 
 }
 
@@ -226,6 +227,7 @@ h1, .lato-bold {
   font-weight: 700;
   font-style: normal;
   padding-bottom: 15px;
+  font-size: 1.375em; /* 22px */
 }
 
 p, .lato-light {
@@ -240,6 +242,7 @@ label, .lato-bold {
   font-weight: 700;
   font-style: normal;
   padding-bottom: 15px;
+  font-size: 1em; /* 16px */
 
 }
 
@@ -250,7 +253,7 @@ label, .lato-bold {
 
 #input-age-verification {
   background: rgb(206, 206, 206);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -258,8 +261,7 @@ label, .lato-bold {
 
 @media screen and (min-width: 620px) {
   form {
-    padding: 100px;
+    padding: 70px;
     border-radius: 50px;
-
   }
 }
